@@ -2,5 +2,46 @@
 
 Clean Jolt - A uBlock (Origin) Filter script for [Game Jolt](https://gamejolt.com) that removes some unnecessary clutter!
 
-***THIS IS IN VERY EARLY BETA!***
-***THE SCRIPT IS NOT OUT YET BUT WILL BE SOON!***
+***BUGS ARE EXPECITED! REPORT TO ISSUES IF YOU ENCOUNTER ANY!***
+
+# Installation
+1. Make sure you have [uBlock Origin](https://ublockorigin.com) installed. (Not the lite version.) If not, you can get it from their website.
+2. Download the Clean Jolt Script either from releases or from the source.
+3. If you haven't already, click the more button in the extension panel until you see this menu
+
+  ![Screenshot 2024-09-07 11 05 06 AM](https://github.com/user-attachments/assets/467441cd-3019-465f-9f67-2b7ca4e54309)
+  
+  Click on the gear icon which will open the dashboard.
+
+3. Once the dashboard is open, click on "My filters" on the top.
+4. Click on "Import and append..." and import the Clean Jolt.
+5. Refresh the Game Jolt Page
+And you're done!
+
+# Removed
+## Default
+The stuff it removes by default are:
+
+* "Invite a Friend" buttons and sections
+* Manage Games List
+* Get App button (Topbar)
+* Trophies Shortcut (User dropdown)
+* Ad Space
+* Share Card on Profiles
+* Sticker "Button" (Just the icon)
+* Game Jolt Announcement Ads (The right bar)
+* Some Misc. Spacers to make everything look cleaner
+
+## Optional
+The stuff you can remove by your self are:
+
+* Sidebar Buttons
+* Right Profile Buttons
+* Charge Meter
+
+# Credits
+@Kabezz for making most of the script
+
+Kolby for fixing Full Charge Text bug
+
+GJ Team for making the gamejolt website or whateverfvjhkwrfa,fykg,l,xdfuihfixblkjdbtfl
