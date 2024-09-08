@@ -44,13 +44,16 @@ The stuff it removes by default are:
 * Sticker "Button" (Just the icon)
 * Game Jolt Announcement Ads (The right bar)
 * Some Misc. Spacers to make everything look cleaner
+* Facebook Link
 
 ## Optional
-The stuff you can remove by your self are:
+The stuff you can remove by yourself are:
 
 * Sidebar Buttons
 * Right Profile Buttons
 * Charge Meter
+* Discover Tab
+* The Entire Website
 
 # Credits
 @Kabezz for making most of the script
