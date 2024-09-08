@@ -17,6 +17,7 @@ Clean Jolt - A uBlock (Origin) Filter script for [Game Jolt](https://gamejolt.co
 4. Click on "Import and append..." and import the Clean Jolt script.
 5. Click on Apply Changes.
 6. Refresh the Game Jolt Page
+
 And you're done!
 
 # Updating
@@ -27,6 +28,7 @@ If you want to update your Clean Jolt script to the latest version, here are the
 4. Click on "Import and append..." and import the new Clean Jolt script.
 5. Click on Apply Changes.
 6. Refresh the Game Jolt Page
+
 And you're done!
 
 # Removed
