@@ -55,6 +55,9 @@ The stuff you can remove by yourself are:
 * Discover Tab
 * The Entire Website
 
+# Known Bugs
+* Follow button now showing up in like popup - Impossible to fix if you don't want the get app button on the topbar.
+
 # Credits
 @Kabezz for making most of the script
 
