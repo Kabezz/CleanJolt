@@ -189,8 +189,8 @@ gamejolt.com##div.col-lg-6.col-md-8:nth-of-type(1)
 
 !-------------------
 ! Hidden comment by blocked user _____.
-!gamejolt.com##.alert
-!gamejolt.com##.-blocked.message-thread-item
+gamejolt.com##.alert
+gamejolt.com##.-blocked.message-thread-item
 !-------------------
 
 ! This is the end of the Clean Jolt Script. --------------------------------------------------------------------------------------------------------------------------------------------------------------------
