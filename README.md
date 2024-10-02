@@ -45,6 +45,8 @@ The stuff it removes by default are:
 * Game Jolt Announcement Ads (The right bar)
 * Some Misc. Spacers to make everything look cleaner
 * Facebook Link
+* Hidden comment by blocked user _____
+* Site Guidelines Comment Info
 
 ## Optional
 The stuff you can remove by yourself are:
