@@ -2,7 +2,7 @@
 
 Clean Jolt - A uBlock (Origin) Filter script for [Game Jolt](https://gamejolt.com) that removes some unnecessary clutter!
 
-***BUGS ARE EXPECITED! REPORT TO ISSUES IF YOU ENCOUNTER ANY!***
+***BUGS ARE EXPECTED! REPORT TO ISSUES IF YOU ENCOUNTER ANY!***
 
 # Installation
 1. Make sure you have [uBlock Origin](https://ublockorigin.com) installed. (Not the lite version.) If not, you can get it from their website.
