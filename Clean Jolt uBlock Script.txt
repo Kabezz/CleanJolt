@@ -1,0 +1,230 @@
+!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!    ░░░░░░░░░░░░▒▒█     ░░░░░░░░░░░░░░░░░░█ ░░░░░█              ░░░░░░░░░░░░░░░░░▒█ ░░░░░░░░░░░░░░░░░░█ ░░░░░░░░░░░░░░░░░▒█          ░░░░░░░░░█ ░░░░░░░░░░░░░░░░░▒█ ░░░░░░░░▒█       ░░░░░░░░░░░░░░░░░░█|
+!   ░░▒▓▓▓▓▓▓▓░░▓██      ░░░░░░░░░░░░░░░░░░██░░░░░█             ░░░░░░░░░░░░░░░░░░▓█ ░░░░░░░░░░░░░░░░░▓█░░░░░░░░░░░░░░░░░░▓           ░░▒▓▓▓▓░░█ ░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░▒█ ░░▓▓▓▓▒░▒█       ░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓░░█|
+!  ░░▒▓▓▓▓▓▓░░███        ░░░░▓██████████████ ░░░░██             ░░░░░██████████████  ░░░░█████████░░░░▓█░░░░░████████▓░░░░█           ░░▒▓▓▓▓░░█ ░░▓▓▓▓▓▓▓▓▓▓▓▓▓▒░▒█ ░░▓▓▓▓▒░▒█       ░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓░░█|
+! ░░▓▒▒▒▒▓▒░░░░░▓██      ░░░░▓█              ░░░▒██             ░░░░░░░░░░░░░░░░░░  ░░░░░░░░░░░░░░░░░░█ ░░░░▓█       ░░░░▒█           ░░▒▓▓▓▓░░█ ░░▓▓▓▓▓░░░░▓▓▓▓▒░▒█ ░░▓▓▓▓▒░▒█       ░░░░░░░▓▓▓▓▒░░░░░░█|
+!░░░▒▒▒▒▒▒▒▒▒░▓███      ░░░░░█              ░░░░▒█              ░░░░░░░░░░░░░░░░░▒█ ░░░░░░░░░░░░░░░░░░█ ░░░░▓█       ░░░░▒█  ░░░░░░░░░░░▒▓▒▒▒░░█ ░░▓▓▒▒▒░░░░▓▒▒▒▒░▒█ ░░▓▒▒▒▒░▒▒░░░░░  ░▓▓▓▓░░▓▒▒▒▒░▒▓▓▓▓█|
+!░▒▒▒▒▒▒░░▒░▒██         ░░░░▓█              ░░░░█              ░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒█  ░░░░▒▒▒▒▒▒▒▒▒░░░░▓█░░░░░█       ░░░░░█   ░░▒▒▒▒▒▒▒▒▒▓▒▒▒▒░░█ ░░▓▒▒▒▒▒▒▒▒▓▒▒▒▒░▒█ ░░▓▒▒▒▒▒▒▒▒▒▒░░██     ░░▓▒▒▒▒░▒█    |
+!      ░░░░██           ░░░░▓█              ░░░░█              ░░░░░█               ░░░░█        ░░░░▓█░░░░░█       ░░░░░█   ░░▒▓▒▒▒▒▒▒▒▒▒▒▒▒░░█ ░░▓▒▒▒▒▒▒▒▒▒▒▒▒▒░▒█ ░░▓▒▒▒▒▒▒▒▒▒▒░░██     ░░▓▒▒▒▒░▒█    |
+!     ░░▒██            ░░░░░░░░░░░░░░░░░░█ ░░░░░░░░░░░░░░░░░▒█ ░░░░░░░░░░░░░░░░░▓█ ░░░░▒█       ░░░░▒█ ░░░░▓█       ░░░░▓█   ░░▒▓▒▒▒▒▒▒▒▒▒▒▒▒░░█ ░░▓▒▒▒▒▒▒▒▒▒▒▒▒▒░▒█ ░░▓▒▒▒▒▒▒▒▒▒▒░░██     ░░▓▒▒▒▒░▒█    |
+!    ░▓██              ░░░░░░░░░░░░░░░░░░█ ░░░░░░░░░░░░░░░░░▒█░░░░░░░░░░░░░░░░░░█ ░░░░░█        ░░░░██░░░░░█       ░░░░░█    ░░░░░░░░░░░░░░░░░░█ ░░░░░░░░░░░░░░░░░▒█ ░░░░░░░░░░░░░░░██     ░░░░░░░░▒█    |
+!   ░▓██                ██████████████████  █████████████████  ██████████████████   ████         ████  █████        █████     ██████████████████  ██████████████████  ███████████████       █████████    |
+!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+! v2.0.0
+
+! ██╗  ██╗███████╗██╗     ██████╗      ██████╗ ██╗   ██╗██╗██████╗ ███████╗     ██████╗ ███╗   ██╗     ██████╗██╗   ██╗███████╗████████╗ ██████╗ ███╗   ███╗██╗███████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗
+! ██║  ██║██╔════╝██║     ██╔══██╗    ██╔════╝ ██║   ██║██║██╔══██╗██╔════╝    ██╔═══██╗████╗  ██║    ██╔════╝██║   ██║██╔════╝╚══██╔══╝██╔═══██╗████╗ ████║██║╚══███╔╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║
+! ███████║█████╗  ██║     ██████╔╝    ██║  ███╗██║   ██║██║██║  ██║█████╗      ██║   ██║██╔██╗ ██║    ██║     ██║   ██║███████╗   ██║   ██║   ██║██╔████╔██║██║  ███╔╝ ███████║   ██║   ██║██║   ██║██╔██╗ ██║
+! ██╔══██║██╔══╝  ██║     ██╔═══╝     ██║   ██║██║   ██║██║██║  ██║██╔══╝      ██║   ██║██║╚██╗██║    ██║     ██║   ██║╚════██║   ██║   ██║   ██║██║╚██╔╝██║██║ ███╔╝  ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║
+! ██║  ██║███████╗███████╗██║         ╚██████╔╝╚██████╔╝██║██████╔╝███████╗    ╚██████╔╝██║ ╚████║    ╚██████╗╚██████╔╝███████║   ██║   ╚██████╔╝██║ ╚═╝ ██║██║███████╗██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║
+! ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝          ╚═════╝  ╚═════╝ ╚═╝╚═════╝ ╚══════╝     ╚═════╝ ╚═╝  ╚═══╝     ╚═════╝ ╚═════╝ ╚══════╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+
+! When a piece of code is commented like this
+!gamejolt.com##something > something
+! It means that piece of code is still on the website and can be uncommented (by removing the ! in the beginning) to remove the section
+
+! If a piece of code is uncommented like this
+gamejolt.com##something > something
+! It means that section of the website is removed and can be commented (by putting ! in the beginning) to bring it back
+! Ya got it? Alright it's time for the code
+
+!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+!---------------------------------------------------------------------------------------------------------
+! Friend Links
+!--------------
+! Home Page
+gamejolt.com##._left-scroller._thin._mouse._overlay-scroller.scroll-scroller > div > div > .sheet-elevate.sheet
+! User Dropdown
+gamejolt.com##.-invite-well
+! Chat Bar
+gamejolt.com###shell-chat-pane > div > div:nth-of-type(3)
+! Your Profile
+gamejolt.com##._right-scroller._thin._mouse._overlay-scroller.scroll-scroller > div > .sheet
+!---------------------------------------------------------------------------------------------------------
+
+!----------------------------------------------
+! Sidebar buttons
+!-----------------
+! Shop
+!#if env_mobile
+!gamejolt.com##div.-control.-item:nth-of-type(3)
+!#else
+!gamejolt.com##div.-control.-item:nth-of-type(2)
+!#endif
+! Backpack
+!#if env_mobile
+gamejolt.com##div.-control.-item:nth-of-type(4)
+!#else
+gamejolt.com##div.-control.-item:nth-of-type(3)
+!#endif
+! Quests
+!#if env_mobile
+!gamejolt.com##div.-control.-item:nth-of-type(5)
+!#else
+!gamejolt.com##div.-control.-item:nth-of-type(4)
+!#endif
+! Joltydex
+!#if env_mobile
+gamejolt.com##div.-control.-item:nth-of-type(6)
+!#else
+gamejolt.com##div.-control.-item:nth-of-type(5)
+!#endif
+! Game library
+!#if env_mobile
+gamejolt.com##div.-control.-item:nth-of-type(7)
+!#else
+gamejolt.com##div.-control.-item:nth-of-type(6)
+!#endif
+!----------------------------------------------
+
+!----------------------------------------------------------------------------
+! Get App Button (Topbar) (Also Removes some other buttons as a side effect)
+!gamejolt.com##.-button > .-outline.button
+!----------------------------------------------------------------------------
+
+!------------------------------------------
+! Discover Tab (Topbar)
+!#if env_mobile
+!gamejolt.com##ul.shell-nav:nth-of-type(1) > li:nth-of-type(1)
+!#else
+!gamejolt.com##a.navbar-item:nth-of-type(2)
+!#endif
+!------------------------------------------
+
+!-----------------------------------------------------------------------------
+! Trophies Shortcut (User Drppdown, Keep both scripts for the best effect)
+gamejolt.com##.fill-darkest.account-popover > div.-v.-s0-sm.-s0-xs.-s3.-spacer
+gamejolt.com##.-quick-actions
+!-----------------------------------------------------------------------------
+
+!-----------------------------------------------------------------------------------
+! Second Profile Button (User Dropdown)
+gamejolt.com##div.list-group-dark:nth-of-type(7) > a.list-group-item:nth-of-type(1)
+!-----------------------------------------------------------------------------------
+
+!----------------------------------------------------------------------------------------------------------------------
+! Profile Ad Space (Legacy?)
+!gamejolt.com##._right-scroller._thin._mouse._overlay-scroller.scroll-scroller > div:nth-of-type(2) > div:nth-of-type(3)
+!----------------------------------------------------------------------------------------------------------------------
+
+!-------------------------------------------------------------
+! Profile Spacers (Makes things look more polished)
+gamejolt.com##div.-v.-s0-sm.-s0-xs.-s6.-spacer:nth-of-type(4)
+gamejolt.com##div.-v.-s0-sm.-s0-xs.-s6.-spacer:nth-of-type(6)
+gamejolt.com##.-v.-s0-sm.-s0-xs.-s4.-spacer
+!-------------------------------------------------------------
+
+!-----------------------------
+! Right Profile Buttons
+!gamejolt.com##.button-group
+!-----------------------------
+
+!--------------------------------------------------
+! Share Card (Game Page)
+!gamejolt.com##.card.share-card
+!--------------------------------------------------
+
+!-------------------------------------------------------------
+! Sticker "Button" (Just the icon. Out of sight, out of mind)
+!gamejolt.com##.-icon.jolticon-sticker-filled.jolticon
+!-------------------------------------------------------------
+
+!---------------------------------------------------------------
+! Reaction "Button" (Just the icon, makes a gap in the controls)
+!gamejolt.com##.-icon.jolticon-add-reaction.jolticon
+!---------------------------------------------------------------
+
+!-----------------------------------------------------------------------
+! Post Ad Container (In between posts)
+gamejolt.com##.text-center.full-bleed-xs.fill-offset.well.-ad-container
+!-----------------------------------------------------------------------
+
+!--------------------------------------------------------------------------------------------
+! Game Jolt Announcement Ad (Right Side. Enable for announcement ads that show up)
+!gamejolt.com##._right-scroller._thin._mouse._overlay-scroller.scroll-scroller > div > [href]
+!gamejolt.com##._main > [href]
+!--------------------------------------------------------------------------------------------
+
+!-------------------------------------------------------------
+! Full Ad Background (Enable for events that take over the bg)
+! You wouldn't be able to access the following tab otherwise
+!gamejolt.com###ad-takeover-background
+!-------------------------------------------------------------
+
+!----------------------------------
+! Store Page Ad Container
+gamejolt.com##.-leaderboard-ad
+!----------------------------------
+
+!-----------------------------------------------------------------------------
+! Game Page Ad Container
+gamejolt.com##._right-scroller > div:nth-of-type(1) > .scroll-affix-container
+!-----------------------------------------------------------------------------
+
+!---------------------------------------
+! Site Guidelines Comment Info
+gamejolt.com##.loading-fade-content > p
+!---------------------------------------
+
+!--------------------------------------------------------------
+! Hidden comment by blocked user _____ (Hope this still works)
+gamejolt.com##.alert
+gamejolt.com##.-blocked.message-thread-item
+!--------------------------------------------------------------
+
+!-------------------------------------------
+! #fnf section on the store page
+! why? because i think it would be funny if i got rid of it
+gamejolt.com##div.-list-item:nth-of-type(8)
+!-------------------------------------------
+
+!--------------------------------------------------
+! Facebook link
+gamejolt.com##div.col-lg-6.col-md-8:nth-of-type(1)
+!--------------------------------------------------
+
+!---------------------------------------------------
+! Manage Games List (Left Side)
+!gamejolt.com##div:nth-of-type(3) > .elevate-1.sheet
+!---------------------------------------------------
+
+!------------------------------------------------------------------------------
+! Charge (Left Side, Delete the Spacer if you want to delete the charge window)
+!gamejolt.com##._decorator._elevate.sticker-charge-card
+!gamejolt.com##.-v.-s0-sm.-s0-xs.-s5.-spacer
+!------------------------------------------------------------------------------
+
+!---------------------------------------------------
+! Daily Quests (Left Side)
+!gamejolt.com##div:nth-of-type(1) > .elevate-1.sheet
+!---------------------------------------------------
+
+!-----------------------------
+! Mobile App Banner
+gamejolt.com##.-banner-outer
+!-----------------------------
+
+!-------------------
+! WEBSITE NUKE
+!gamejolt.com###app
+!-------------------
+
+!--------------------------------
+! Legacy Features (For archiving)
+!----------------------------------------------------------
+! Manage Games List (Left Side) (Legacy, No longer works)
+!gamejolt.com##.clearfix > .section-header
+!gamejolt.com##.pull-right > .-sparse.-circle.-trans.button
+!gamejolt.com##.platform-list.-game-list
+!----------------------------------------------------------
+!--------------------------------------------------------------
+! Charge (Left Side) Delete the Spacer if you want to delete the charge window (Legacy, no longer works)
+!gamejolt.com##.-col.-content
+!gamejolt.com##div.-v.-s0-sm.-s0-xs.-s8.-spacer:nth-of-type(3)
+!gamejolt.com##.-small > span
+!--------------------------------------------------------------
+!---------------------------------
+
+! This is the end of the Clean Jolt Script. --------------------------------------------------------------------------------------------------------------------------------------------------------------------
