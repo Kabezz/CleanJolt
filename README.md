@@ -1,4 +1,4 @@
-![Clean Jolt](https://github.com/user-attachments/assets/c62c5faa-ee4b-43f3-9f61-9e8b630fce7a)
+![Clean Jolt](https://github.com/user-attachments/assets/b2dfb92a-07cb-4c5f-b74d-21d83f61b85e)
 
 Clean Jolt - A uBlock (Origin) Filter script for [Game Jolt](https://gamejolt.com) that removes some unnecessary clutter!
 
@@ -36,13 +36,10 @@ And you're done!
 The stuff it removes by default are:
 
 * "Invite a Friend" buttons and sections
-* Manage Games List
-* Get App button (Topbar)
 * Trophies Shortcut (User dropdown)
 * Ad Space
-* Share Card on Profiles
+* Share Card on Game Pages
 * Sticker "Button" (Just the icon)
-* Game Jolt Announcement Ads (The right bar)
 * Some Misc. Spacers to make everything look cleaner
 * Facebook Link
 * Hidden comment by blocked user _____
@@ -52,8 +49,13 @@ The stuff it removes by default are:
 The stuff you can remove by yourself are:
 
 * Sidebar Buttons
+* Game Jolt Announcement Ads (The right bar) (Might change to default later)
 * Right Profile Buttons
-* Charge Meter
+* Get App button (Topbar) (Causes some other buttons to dissapear as a side effect)
+* Manage Games List (Left Side)
+* Charge Meter (Left Side)
+* Daily Quests (Left side)
+* Reaction "Button" (Just the icon)
 * Discover Tab
 * The Entire Website
 
@@ -63,6 +65,6 @@ The stuff you can remove by yourself are:
 # Credits
 @Kabezz for making most of the script
 
-Kolby for fixing Full Charge Text bug
+Kolby for fixing Full Charge Text bug (In the legacy version)
 
 GJ Team for making the gamejolt website or whateverfvjhkwrfa,fykg,l,xdfuihfixblkjdbtfl
