@@ -105,8 +105,8 @@ gamejolt.com##div.list-group-dark:nth-of-type(7) > a.list-group-item:nth-of-type
 !-----------------------------------------------------------------------------------
 
 !----------------------------------------------------------------------------------------------------------------------
-! Profile Ad Space (Legacy?)
-!gamejolt.com##._right-scroller._thin._mouse._overlay-scroller.scroll-scroller > div:nth-of-type(2) > div:nth-of-type(3)
+! Profile Ad Space
+gamejolt.com##._right-scroller._thin._mouse._overlay-scroller.scroll-scroller > div:nth-of-type(2) > div:nth-of-type(3)
 !----------------------------------------------------------------------------------------------------------------------
 
 !-------------------------------------------------------------
