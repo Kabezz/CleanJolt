@@ -1,3 +1,12 @@
+# Full development has been halted indefinitely
+Full development of Clean Jolt has been halted until futher notice, due to me being stuck on Chrome and with Manifest V2 being removed.
+
+**There is no way for me to get around this,** until I get an actual computer. (which let's be honest is far away)
+
+I hope you all understand.
+
+---
+
 ![Clean Jolt](https://github.com/user-attachments/assets/b2dfb92a-07cb-4c5f-b74d-21d83f61b85e)
 
 Clean Jolt - A uBlock (Origin) Filter script for [Game Jolt](https://gamejolt.com) that removes some unnecessary clutter!
